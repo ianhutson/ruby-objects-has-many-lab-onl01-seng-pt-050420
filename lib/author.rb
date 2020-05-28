@@ -24,6 +24,6 @@ class Author
   end
   
   def self.post_count
-    Song.all.count
+    Post.all.count
   end
 end
